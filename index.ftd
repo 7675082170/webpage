@@ -1,40 +1,88 @@
--- ds.page: Welcome to doc-site
+-- ftd.text: vamsi
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #FFFF00
+align-content: center
+-- ftd.row:
+width.fixed.px: 1250
+height.fixed.px: 450
+background.solid: #c5dff5
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
+-- ftd.column:
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
-
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
 
--- ds.h3: 🎯 Used by?
 
-Our all documentation sites uses this `doc-site` theme.
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.image:
+src: https://pbs.twimg.com/profile_images/1554546321230536705/_tCS2ExQ_400x400.jpg
+-- ftd.text: INDIA
+role: $inherited.types.heading-medium
 
--- ds.h2: Learn fastn and become a pro?
+-- ftd.text:
+role: $inherited.types.copy-regular
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+India is one of the world's most attractive countries, and multiple factors have increased its popularity among tourists. Its natural wonders, artificial marvels, national parks, theme parks, etc., have made it a popular name for tourism. Further, it is a land famous for its diverse cultures and enchanting landscapes.
+-- end: ftd.row
 
--- end: ds.page
+
+-- end: ftd.column
+-- component card:
+caption title: india
+body description: Default body
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #FFFF00
+align-content: center
+-- ftd.row:
+width.fixed.px: 1250
+height.fixed.px: 450
+background.solid: #c5dff5
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
+-- ftd.column:
+
+
+
+
+
+
+-- ftd.image:
+src: https://pbs.twimg.com/profile_images/1554546321230536705/_tCS2ExQ_400x400.jpg
+-- ftd.text:  $card.title
+role: $inherited.types.heading-medium
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+
+India is one of the world's most attractive countries, and multiple factors have increased its popularity among tourists. Its natural wonders, artificial marvels, national parks, theme parks, etc., have made it a popular name for tourism. Further, it is a land famous for its diverse cultures and enchanting landscapes.
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: card
+-- card:
+-- card:
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #eee
+spacing.fixed.px: 20
+
+-- end: ftd.column
+-- card:
+
+
+-- card: Lucknow 💛
+
+.. where history dances in the courtyards and elegance graces the
+streets, weaving tales of enchantment in every step.
